@@ -1,0 +1,18 @@
+{
+  "name": "gallery",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "LucaslEliane <517197934@qq.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
