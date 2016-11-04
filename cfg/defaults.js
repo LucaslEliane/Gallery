@@ -38,11 +38,11 @@ function getDefaultModules() {
       },
       {
         test: /\.less/,
-        loader: 'style-loader!css-loader!less-loader'
+        loader: 'style-loader!css-loader!less-loader!postcss-loader'
       },
       {
         test: /\.styl/,
-        loader: 'style-loader!css-loader!stylus-loader'
+        loader: 'style-loader!css-loader!stylus-loader!postcss-loader'
       },
       {
         test: /\.(png|jpg|gif|woff|woff2)$/,
